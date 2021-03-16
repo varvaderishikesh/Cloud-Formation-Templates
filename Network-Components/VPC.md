@@ -10,9 +10,9 @@ Using the below syntax we will create an entire VPC network Infrastructure conta
 7. NAT Gateway, attach it to a private route table.
 
 Now, we will discuss about some terms which you will be seeing inside the code:
-Parameters section can be used to customize your templates. Parameters enable you to input custom values to your template each time you create or update a stack. Parameters can be used as reference in Resources section using the intrinsic function Ref.
-Resources section is used to declare AWS resources you want to include in the stack, such as an Amazon S3 bucket or an Amazon VPC.
-Outputs is an optional section where you can declare output values that you can import into other stacks (to create cross-stack references). For example, you can output the S3 bucket name for a stack to make the bucket easier to find.
+1. Parameters section can be used to customize your templates. Parameters enable you to input custom values to your template each time you create or update a stack. Parameters can be used as reference in Resources section using the intrinsic function Ref.
+2. Resources section is used to declare AWS resources you want to include in the stack, such as an Amazon S3 bucket or an Amazon VPC.
+3. Outputs is an optional section where you can declare output values that you can import into other stacks (to create cross-stack references). For example, you can output the S3 bucket name for a stack to make the bucket easier to find.
 
 ### Documentation Referred:
 
